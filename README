@@ -1,0 +1,14 @@
+Introduction:
+
+Ajaxed Form is a modern and extensible contact form that uses Ajax to the max! , it includes a strong 
+client side validation and a proven captcha system to fight spam; it sends without page refresh and 
+works even with JavaScript disabled !
+
+Futures:
+•  Integrated client side validation (Email validation . . .) 
+•  Sends without page refresh ( check the demo ) 
+•  Strong captcha system to keep the bad guys (Spammers) out of your website. 
+•  Can easily integrate with your existing HTML or PHP pages. 
+•  It works even without JavaScript enabled. 
+•  Uses the Gmail SMTP server configuration, so it will work on any web server including your local one. 
+•  The only thing that you need to change is the Email address ( to put your own ) 

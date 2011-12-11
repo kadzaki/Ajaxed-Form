@@ -1,0 +1,60 @@
+/**************************************** Container ******************************************************/
+
+#wrap { margin: 0 auto ; width: 500px; }
+
+/**************************************** End Container **************************************************/
+
+
+
+/**************************************** Contact Form ***************************************************/
+
+#contactForm 		{ margin-left:25px; }
+
+#contactForm p 		{ margin:5px 0 5px 0; padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:0.8em ;color:#282828; }
+
+input, textarea 	{ font:1em Verdana, Arial, Helvetica, sans-serif; color:#282828; border:1px solid #CDCDCD; font-size:12px; width:70%; margin:5px 0 0 0; }
+
+textarea 			{ width:90%; height:250px; padding:6px; overflow:auto; }
+
+input#name 			{ background:transparent url(../images/ico_user.gif) no-repeat 2% 50%; padding:6px 0px 6px 25px; }
+
+input#email 		{ background:transparent url(../images/ico_mail.gif) no-repeat 2% 50%; padding:6px 0px 6px 25px; }
+
+input#subject 		{ background:transparent url(../images/ico_sub.gif) no-repeat 2% 50%; padding:6px 0px 6px 25px; }
+
+input#captchaCode 	{ padding:6px 0px 6px 6px; margin-bottom: 10px ; }
+
+#submit input 		{ background-color:#A7CC00; color:#FFFFFF; padding:6px; cursor:pointer; width:100px; border:0; }
+
+#submit input:hover { background-color:#00B5E7; color:#FFFFFF; padding:6px; cursor:pointer; width:100px; }
+
+#submit img.ajax-loader { border:0; padding:5px 0 0 5px; }
+
+a#reload 			{ display:inline-block; padding: 15px ; background: url(../captcha/images/refresh.gif) no-repeat; } 
+
+/**************************************** End Contact Form ************************************************/
+
+
+
+/**************************************** Success message ************************************************/
+
+#statusMessage		{ width:300px; margin:100px 0 0 100px; }
+#statusMessage h2	{ font-size:150%; color:#000; }
+#statusMessage p    { color:#000; font-weight:bold; margin:6px 0px; }
+#checkmark		    { position:relative; top:-100px; left:-60px; }
+
+/**************************************** End Success message ********************************************/
+
+
+
+/**************************************** Error messages ************************************************/
+
+#contactForm label 						{ width: 250px; }
+
+#contactForm label.error, label.error 	{ color: red; font-style: italic; margin-left: 220px; width: 220px; display: none; }
+
+div.error 								{ display: none; }
+
+input.error 							{ border: 1px dotted red; }
+
+/**************************************** End Error messages *********************************************/
